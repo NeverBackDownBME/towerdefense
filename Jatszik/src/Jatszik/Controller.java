@@ -6,32 +6,32 @@ public class Controller {
 
 	public void TakeStone() {
 		// TODO - implement Controller.TakeStone
-		throw new UnsupportedOperationException();
+		System.out.println("Operation TakeStone have been called");
 	}
 
 	public void SetPath() {
 		// TODO - implement Controller.SetPath
-		throw new UnsupportedOperationException();
+		System.out.println("Operation SetPath have been called");
 	}
 
 	public void PlaceTower() {
 		// TODO - implement Controller.PlaceTower
-		throw new UnsupportedOperationException();
+		System.out.println("Operation PlaceTower have been called");
 	}
 
 	public void Wait() {
 		// TODO - implement Controller.Wait
-		throw new UnsupportedOperationException();
+		System.out.println("Operation Wait have been called");
 	}
 
 	public void GameOver() {
 		// TODO - implement Controller.GameOver
-		throw new UnsupportedOperationException();
+		System.out.println("Operation GameOver have been called");
 	}
 
 	public void PlaceObstacle() {
 		// TODO - implement Controller.PlaceObstacle
-		throw new UnsupportedOperationException();
+		System.out.println("Operation PlaceObstacle have been called");
 	}
 
 }

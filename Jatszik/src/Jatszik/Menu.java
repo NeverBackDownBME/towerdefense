@@ -2,21 +2,22 @@ package Jatszik;
 
 public class Menu {
 
-	public int name;
+	public String name;
 	public int pathID;
 
 	public void ReadName() {
 		// TODO - implement Menu.ReadName
-		throw new UnsupportedOperationException();
+		System.out.println("Operation ReadName have been called");
 	}
 
 	public void ReadID() {
-		// TODO - implement Menu.ReadID
-		throw new UnsupportedOperationException();
+
+		System.out.println("Operation ReadID have been called");
 	}
 
 	public void SetStat() {
 		// TODO - implement Menu.SetStat
+		System.out.println("Operation SetStat have been called");
 		throw new UnsupportedOperationException();
 	}
 

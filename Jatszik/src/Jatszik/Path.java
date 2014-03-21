@@ -2,28 +2,28 @@ package Jatszik;
 
 public class Path extends Field {
 
-	public int nextField;
-	public int obstacle;
-	public int occipied;
+	public Path nextField;
+	public Obstacle obstacle;
+	public boolean occupied;
 
 	public void GetNextField() {
 		// TODO - implement Path.GetNextField
-		throw new UnsupportedOperationException();
+		System.out.println("Operation getNextField have been called");
 	}
 
 	public void IsOccupied() {
 		// TODO - implement Path.IsOccupied
-		throw new UnsupportedOperationException();
+		System.out.println("Operation IsOccupied have been called");
 	}
 
 	public void SetObstacle() {
 		// TODO - implement Path.SetObstacle
-		throw new UnsupportedOperationException();
+		System.out.println("Operation SetObstacle have been called");
 	}
 
 	public void getDelay() {
 		// TODO - implement Path.getDelay
-		throw new UnsupportedOperationException();
+		System.out.println("Operation getDelay have been called");
 	}
 
 }

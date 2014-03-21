@@ -8,12 +8,12 @@ public class Creature {
 
 	public void Damage() {
 		// TODO - implement Creature.Damage
-		throw new UnsupportedOperationException();
+		System.out.println("Operation Damage have been called");
 	}
 
 	public void Move() {
 		// TODO - implement Creature.Move
-		throw new UnsupportedOperationException();
+		System.out.println("Operation Move have been called");
 	}
 
 }
